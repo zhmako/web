@@ -1,0 +1,26 @@
+{
+  "name": "confluence-clone-server",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/swagger": "^6.0.0",
+    "@nestjs/typeorm": "^9.0.0",
+    "pg": "^8.7.3",
+    "redis": "^4.0.0",
+    "typeorm": "^0.3.0",
+    "rxjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.0.0",
+    "@nestjs/schematics": "^9.0.0",
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.0"
+  }
+}
